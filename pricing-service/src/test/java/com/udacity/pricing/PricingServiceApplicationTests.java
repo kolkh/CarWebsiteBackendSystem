@@ -24,7 +24,7 @@ public class PricingServiceApplicationTests {
 	}
 
 	@Test
-	public void vehicleTest() throws Exception {
+	public void priceTest() throws Exception {
 		this.mockMvc.perform(get("/services/price?vehicleId=1")).andExpect(status().isOk());
 	}
 
